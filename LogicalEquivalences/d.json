@@ -1,0 +1,12 @@
+[
+    ["Identity laws", "p ∧ T ≡ p | p ∨ F ≡ p"],
+    ["Domination laws", "p ∨ T ≡ T | p ∧ F ≡ F"],
+    ["Idempotent laws", "p ∨ p ≡ p | p ∧ p ≡ p"],
+    ["Double negation law", "¬(¬p) ≡ p"],
+    ["Commutative laws", "p ∨ q ≡ q ∨ p | p ∧ q ≡ q ∧ p"],
+    ["Associative laws", "(p ∨ q) ∨ r ≡ p ∨ (q ∨ r) | (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)"],
+    ["Distributive laws", "p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r) | p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)"],
+    ["De Morgan’s laws", "¬(p ∧ q) ≡ ¬p ∨ ¬q | ¬(p ∨ q) ≡ ¬p ∧ ¬q"],
+    ["Absorption laws", "p ∨ (p ∧ q) ≡ p | p ∧ (p ∨ q) ≡ p"],
+    ["Negation laws", "p ∨ ¬p ≡ T | p ∧ ¬p ≡ F"]
+]
